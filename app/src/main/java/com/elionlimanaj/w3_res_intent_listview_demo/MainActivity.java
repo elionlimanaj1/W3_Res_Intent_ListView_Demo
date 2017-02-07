@@ -33,14 +33,14 @@ public class MainActivity extends AppCompatActivity {
         editText = (EditText) findViewById(R.id.edit_text_age_ma1);
         editText2 = (EditText) findViewById(R.id.edit_text_name_ma1);
 
-        ArrayAdapter<String> adapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1, myItems);
+        ArrayAdapter<String> adapter = new ArrayAdapter<>(this, android.R.layout.simple_list_item_1, myItems);
         listView.setAdapter(adapter);
         listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
                 view.setBackgroundColor(Color.LTGRAY);
                 Intent exIntent = new Intent(MainActivity.this, Main2Activity.class);
-                exIntent.putExtra(MSG_KEY_INTENT, "Age is " + myItems[position]);
+                exIntent.putExtra(MSG_KEY_INTENT, "Selected Course: " + myItems[position]);
                 startActivity(exIntent);
             }
         });
