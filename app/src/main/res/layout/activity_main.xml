@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context="com.elionlimanaj.w3_res_intent_listview_demo.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/age_caption_ma1" />
+
+    <EditText
+        android:id="@+id/edit_text_age_ma1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Age" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/name_caption_ma1" />
+
+    <EditText
+        android:id="@+id/edit_text_name_ma1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name:" />
+
+    <Button
+        android:id="@+id/btn1_ma1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/action_bnt_caption_ma1" />
+
+    <Button
+        android:id="@+id/btn2_ma1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="showMap"
+        android:text="@string/show_map_caption_ma1" />
+
+    <ListView
+        android:id="@+id/list_view_ma1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"></ListView>
+</LinearLayout>

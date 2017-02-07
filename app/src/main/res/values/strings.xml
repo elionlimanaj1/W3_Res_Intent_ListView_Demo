@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">W3 Demo</string>
+    <string name="age_caption_ma1">Age</string>
+    <string name="name_caption_ma1">Name</string>
+    <string name="action_bnt_caption_ma1">Move to UI2</string>
+    <string name="show_map_caption_ma1">Show Map</string>
+
+    <string-array name="my_courses_items">
+        <item>CSIT551 First</item>
+        <item>CSIT561 Really?</item>
+        <item>CSIT571</item>
+        <item>CSIT551 How about</item>
+        <item>CSIT581</item>
+        <item>CSIT591</item>
+        <item>CSIT551 Hey body</item>
+        <item>CSIT651</item>
+        <item>CSIT661</item>
+        <item>CSIT651 Bla bla</item>
+        <item>CSIT671</item>
+        <item>CSIT681</item>
+        <item>CSIT691 End</item>
+    </string-array>
+</resources>
